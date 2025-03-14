@@ -1,0 +1,8 @@
+{
+	"name" : "Luck be a Landlord",
+	"icon" : "luckbealandlord.webp",
+	"button_color" : "#ff8300",
+	"font" : "HopeGold",
+        "challenges": [
+            "Break 3 ore", "Drink a beer", "Kill a billionaire", "Pollinate a flower", "Break a pinata", "Get a Golden Egg from a Goose", "Feed 2 cats with 1 milk", "Get a Geologist to +8", "Get a symbol and immediately remove it", "Buff a flower with exactly 3 things", "Have 4+ hexes at once on board","Have 4+ alcoholic beverages in 1 spin","Crack 4+ capsules", "Collect 4+ fruits", "Collect 4+ Gems", "Collect 6+ animals", "Kill 4+ humans", "Roll the max value on a die", "Have 4+ rares in 1 spin", "Break a piggy bank", "Collect 3+ chili peppers", "Open something with a key", "Have 3+ wolves", "Have 3+ suits", "Arrr have 1+ pirates", "Have a wildcard", "Have 3+ rabbits", "Feed an eldritch creature","Obtain the Lizard Blade", "Create a Diamond from Coal","Have 4+ Spirits on board"]
+}

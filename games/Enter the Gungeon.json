@@ -1,0 +1,8 @@
+{
+	"name" : "Enter the Gungeon",
+	"icon" : "gungeon.png",
+	"button_color" : "#fd58ac",
+	"font" : "Enter the Gungeon small",
+        "challenges": [
+            "Have 5+ shields at one time", "Sell 2+ guns", "Make a shopkeeper mad", "Visit an alternate floor", "Spill water on a carpet", "Leave a gun in the elevator", "Open 2+ brown chests", "Do not dodge roll for 3 straight rooms", "Flawless 2+ bosses", "Have 200 money at one time", "Buy the next ammo box seen","Use 7+ guns in one room","Find a secret room", "Flawless a floor", "Get an  Obsidian Shell Casing", "Fall in a pit 3+ times", "Get a synergy", "Pick up 2+ junk", "Promote 1+ Devolver sales", "Use a blank in a treasure room", "Kill an enemy without a gun or item", "Have 5+ red hearts", "Get a gun to 1 ammo, then fill it fully", "Get hit by a Bullet Kin", "Hit 3+ targets in the Winchester mini game", "Use a Vampire 3 times"]
+}
