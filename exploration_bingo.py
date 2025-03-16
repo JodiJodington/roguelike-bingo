@@ -10,7 +10,7 @@ def start(root,choice,game_type,games,resources):
     root.destroy()
 
     # Pull JSON input from corresponding game JSON chosen
-    with open(f"{games}\\{choice}.json", 'r') as f:
+    with open(os.path.join(games, f"{choice}.json"), 'r') as f:
         data = json.load(f)
     
     # Load JSON input
@@ -70,7 +70,7 @@ def start(root,choice,game_type,games,resources):
         label.grid(row=0, column=j, sticky="nsew", padx=10, pady=5)
 
     # Load the image for the center button
-    image = Image.open(f"{resources}\\{data['icon']}")  # Grab the game's image file
+    image = Image.open(os.path.join(resources, data['icon']))  # Grab the game's image file
     image = image.resize((100, 100), Image.NEAREST)  # Resize to fit button size
     photo = ImageTk.PhotoImage(image)
 
@@ -137,8 +137,8 @@ def main():
     
     # Get current working directory of the script
     current_directory = os.getcwd()
-    games = current_directory + '/games'
-    resources = current_directory + '/resources'
+    games = os.path.join(current_directory, 'games')
+    resources = os.path.join(current_directory, 'resources')
 
     # set the OptionsMenu button for game selection
     variable = tk.StringVar(root)
