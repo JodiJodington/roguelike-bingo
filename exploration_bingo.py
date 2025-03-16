@@ -142,10 +142,10 @@ def main():
 
     # set the OptionsMenu button for game selection
     variable = tk.StringVar(root)
-    options = ['Please choose a game']
+    options = []
     for f in  os.listdir(games):
         options.append(f.split('.json')[0])
-    variable.set(options[0]) # set default value          
+    variable.set('Please choose a game') # set default value          
     w = tk.OptionMenu(root, variable, *options)
     w.pack()
 
